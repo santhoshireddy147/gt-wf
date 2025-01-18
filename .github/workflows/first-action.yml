@@ -1,10 +1,10 @@
-name: first workflow
+name: First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
     runs-on: windows-latest
     steps:
-      -name: print greeeting
+      - name: print greeeting
       run: echo "hello world"
-      -name: print goodbye
+      - name: print goodbye
       run: echo "done-bye"
